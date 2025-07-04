@@ -1,0 +1,297 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tw-animate-css";
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+/* Floating background elements */
+.bg-elements {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+.floating-shape {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  animation: float 20s infinite linear;
+}
+.shape-1 {
+  width: 200px;
+  height: 200px;
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+.shape-2 {
+  width: 150px;
+  height: 150px;
+  top: 60%;
+  right: 20%;
+  animation-delay: -5s;
+}
+.shape-3 {
+  width: 100px;
+  height: 100px;
+  bottom: 30%;
+  left: 30%;
+  animation-delay: -10s;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-30px) rotate(120deg); }
+  66% { transform: translateY(30px) rotate(240deg); }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* CSS Variables for Theming */
+:root {
+  --radius: 20px;
+  --gradient-color-1: #667eea;
+  --gradient-color-2: #764ba2;
+  --gradient-color-3: #f093fb;
+  --gradient-color-4: #f5576c;
+  --gradient-color-5: #4facfe;
+
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+
+  --sidebar: rgba(255,255,255,0.12);
+  --sidebar-foreground: #18181b;
+  --sidebar-primary: #2563eb;
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: #ec4899;
+  --sidebar-accent-foreground: #fff;
+  --sidebar-border: rgba(0,0,0,0.08);
+  --sidebar-ring: #2563eb;
+}
+
+/* Dark Theme */
+.dark {
+  --background: linear-gradient(135deg, #18181b 0%, #2563eb 100%);
+  --foreground: #fff;
+  --card: rgba(24,24,27,0.7);
+  --card-foreground: #fff;
+  --popover: rgba(24,24,27,0.8);
+  --popover-foreground: #fff;
+
+  --primary: linear-gradient(90deg, #60a5fa 0%, #ec4899 100%);
+  --primary-foreground: #fff;
+  --secondary: rgba(37,99,235,0.18);
+  --secondary-foreground: #fff;
+
+  --muted: rgba(37,99,235,0.12);
+  --muted-foreground: #a5b4fc;
+  --accent: linear-gradient(90deg, #818cf8 0%, #f87171 100%);
+  --accent-foreground: #fff;
+  --destructive: #ef4444;
+
+  --border: rgba(255,255,255,0.12);
+  --input: rgba(255,255,255,0.18);
+  --ring: #818cf8;
+
+  --sidebar: rgba(24,24,27,0.7);
+  --sidebar-foreground: #fff;
+  --sidebar-primary: #60a5fa;
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: #ec4899;
+  --sidebar-accent-foreground: #fff;
+  --sidebar-border: rgba(255,255,255,0.12);
+  --sidebar-ring: #818cf8;
+}
+
+/* Custom Animations */
+@keyframes spotify-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spotify-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes spotify-shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+/* Enhanced Component Styles */
+@layer components {
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  }
+  .glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .glass-popover {
+    backdrop-filter: blur(30px);
+    background: rgba(255,255,255,0.1);
+    border-radius: 25px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .text-gradient {
+    background: linear-gradient(45deg, #fff, rgba(255, 255, 255, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+}
+/* Add these styles to your global CSS or component styles */
+
+/* Input placeholder styling */
+.login-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Custom focus styles for better accessibility */
+.login-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Smooth transitions for all interactive elements */
+.login-modal-overlay {
+  transition: all 0.3s ease;
+}
+
+.login-modal-overlay.entering {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.login-modal-overlay.entered {
+  opacity: 1;
+  visibility: visible;
+}
+
+.login-form-container {
+  transition: all 0.3s ease;
+  transform: scale(0.8);
+}
+
+.login-modal-overlay.entered .login-form-container {
+  transform: scale(1);
+}
+
+/* Button hover effects */
+.login-button:hover:not(:disabled) {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Close button hover effect */
+.close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(90deg);
+}
+
+/* Loading state animation */
+.login-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .login-form-container {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+  
+  .login-modal-title {
+    font-size: 1.75rem;
+  }
+}
