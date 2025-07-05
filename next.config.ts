@@ -1,5 +1,12 @@
-// Next.js configuration
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  allowedDevOrigins: ['http://127.0.0.1:3000'],
-}; 
+  experimental: {
+    // This helps with the searchParams invariant error
+    missingSuspenseWithCSRBailout: false,
+  },
+  // Ensure proper handling of client components
+  transpilePackages: [],
+}
+
+module.exports = nextConfig

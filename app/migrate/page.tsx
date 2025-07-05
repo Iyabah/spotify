@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -78,7 +78,7 @@ function StatsCard({ icon: Icon, title, count, color = "green" }: StatsCardProps
   );
 }
 
-export default function MigratePage() {
+function MigratePageContent() {
   const [tokens, setTokens] = useState<{ source: any; destination: any } | null>(null);
   const [sourceData, setSourceData] = useState<any>({ playlists: [], likedSongs: [], albums: [] });
   const [loading, setLoading] = useState(true);
@@ -529,4 +529,24 @@ export default function MigratePage() {
       </footer>
     </div>
   );
-} 
+}
+
+function LoadingFallback() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen gradient-bg">
+      <div className="glass-card p-8 flex flex-col items-center justify-center shadow-2xl">
+        <Spinner className="w-10 h-10 mb-4 text-gradient" />
+        <h2 className="text-2xl font-bold text-gradient mb-2">Loading...</h2>
+        <p className="text-muted-foreground">Please wait</p>
+      </div>
+    </div>
+  );
+}
+
+export default function MigratePage() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <MigratePageContent />
+    </Suspense>
+  );
+}
