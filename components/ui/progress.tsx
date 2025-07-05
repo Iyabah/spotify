@@ -12,16 +12,14 @@ function Progress({
 }: React.ComponentProps<typeof ProgressPrimitive.Root>) {
   return (
     <ProgressPrimitive.Root
-      data-slot="progress"
       className={cn(
-        "bg-gradient-to-r from-blue-200 to-pink-200 relative h-2 w-full overflow-hidden rounded-full glass-card",
+        "relative h-3 w-full overflow-hidden rounded-full bg-white/10 backdrop-blur-sm border border-white/20",
         className
       )}
       {...props}
     >
       <ProgressPrimitive.Indicator
-        data-slot="progress-indicator"
-        className="bg-gradient-to-r from-blue-500 to-pink-500 h-full w-full flex-1 transition-all"
+        className="h-full w-full flex-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transition-all duration-500 ease-out shadow-lg"
         style={{ transform: `translateX(-${100 - (value || 0)}%)` }}
       />
     </ProgressPrimitive.Root>

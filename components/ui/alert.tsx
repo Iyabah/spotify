@@ -4,13 +4,17 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const alertVariants = cva(
-  "relative w-full rounded-lg border px-4 py-3 text-sm grid has-[>svg]:grid-cols-[calc(var(--spacing)*4)_1fr] grid-cols-[0_1fr] has-[>svg]:gap-x-3 gap-y-0.5 items-start [&>svg]:size-4 [&>svg]:translate-y-0.5 [&>svg]:text-current glass-card",
+  "relative w-full rounded-2xl border px-6 py-4 text-sm glass-card [&>svg]:absolute [&>svg]:left-6 [&>svg]:top-6 [&>svg]:text-current [&>svg+div]:translate-y-[-3px] [&:has(svg)]:pl-14",
   {
     variants: {
       variant: {
-        default: "glass-card text-card-foreground",
+        default: "text-white border-white/20",
         destructive:
-          "text-destructive glass-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90",
+          "border-red-500/30 text-red-200 [&>svg]:text-red-400 bg-red-500/10",
+        warning:
+          "border-yellow-500/30 text-yellow-200 [&>svg]:text-yellow-400 bg-yellow-500/10",
+        success:
+          "border-green-500/30 text-green-200 [&>svg]:text-green-400 bg-green-500/10",
       },
     },
     defaultVariants: {
@@ -26,7 +30,6 @@ function Alert({
 }: React.ComponentProps<"div"> & VariantProps<typeof alertVariants>) {
   return (
     <div
-      data-slot="alert"
       role="alert"
       className={cn(alertVariants({ variant }), className)}
       {...props}
@@ -34,14 +37,10 @@ function Alert({
   )
 }
 
-function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
+function AlertTitle({ className, ...props }: React.ComponentProps<"h5">) {
   return (
-    <div
-      data-slot="alert-title"
-      className={cn(
-        "col-start-2 line-clamp-1 min-h-4 font-medium tracking-tight",
-        className
-      )}
+    <h5
+      className={cn("mb-2 font-bold leading-none tracking-tight text-lg", className)}
       {...props}
     />
   )
@@ -53,11 +52,7 @@ function AlertDescription({
 }: React.ComponentProps<"div">) {
   return (
     <div
-      data-slot="alert-description"
-      className={cn(
-        "text-muted-foreground col-start-2 grid justify-items-start gap-1 text-sm [&_p]:leading-relaxed",
-        className
-      )}
+      className={cn("text-sm leading-relaxed opacity-90", className)}
       {...props}
     />
   )

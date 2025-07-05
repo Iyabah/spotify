@@ -5,20 +5,22 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
-  "inline-flex items-center justify-center rounded-full border px-3 py-1 text-xs font-semibold w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-all duration-200 overflow-hidden",
+  "inline-flex items-center justify-center rounded-full px-3 py-1 text-xs font-semibold transition-all duration-300 hover:scale-105 border backdrop-blur-sm",
   {
     variants: {
       variant: {
         default:
-          "border-transparent bg-gradient-to-r from-blue-500 to-pink-500 text-white shadow-sm [a&]:hover:from-blue-600 [a&]:hover:to-pink-600 [a&]:hover:scale-105",
+          "bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-200 border-blue-500/30 hover:from-blue-500/30 hover:to-purple-500/30",
         secondary:
-          "border-transparent bg-secondary text-secondary-foreground shadow-sm [a&]:hover:bg-secondary/90 [a&]:hover:scale-105",
+          "bg-white/10 text-white/90 border-white/20 hover:bg-white/15",
         destructive:
-          "border-transparent bg-destructive text-white shadow-sm [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 [a&]:hover:scale-105",
+          "bg-gradient-to-r from-red-500/20 to-pink-500/20 text-red-200 border-red-500/30 hover:from-red-500/30 hover:to-pink-500/30",
         outline:
-          "text-foreground border-2 [a&]:hover:bg-accent [a&]:hover:text-accent-foreground [a&]:hover:scale-105",
-        vibrant:
-          "border-transparent bg-gradient-to-r from-blue-400 to-pink-400 text-white font-bold shadow-sm [a&]:hover:from-pink-400 [a&]:hover:to-blue-400 [a&]:hover:scale-105",
+          "text-white border-white/30 hover:bg-white/10",
+        success:
+          "bg-gradient-to-r from-green-500/20 to-emerald-500/20 text-green-200 border-green-500/30 hover:from-green-500/30 hover:to-emerald-500/30",
+        warning:
+          "bg-gradient-to-r from-yellow-500/20 to-orange-500/20 text-yellow-200 border-yellow-500/30 hover:from-yellow-500/30 hover:to-orange-500/30",
       },
     },
     defaultVariants: {
@@ -38,7 +40,6 @@ function Badge({
 
   return (
     <Comp
-      data-slot="badge"
       className={cn(badgeVariants({ variant }), className)}
       {...props}
     />
