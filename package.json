@@ -37,6 +37,7 @@
   "devDependencies": {
     "@types/node": "^24.0.10",
     "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
     "tw-animate-css": "^1.3.4"
   }
 }
