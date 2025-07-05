@@ -207,81 +207,14 @@ body {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
   }
-}
-/* Add these styles to your global CSS or component styles */
 
-/* Input placeholder styling */
-.login-input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
+  .fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
 
-/* Custom focus styles for better accessibility */
-.login-input:focus {
-  outline: none;
-  border-color: rgba(255, 255, 255, 0.4) !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1) !important;
-}
-
-/* Smooth transitions for all interactive elements */
-.login-modal-overlay {
-  transition: all 0.3s ease;
-}
-
-.login-modal-overlay.entering {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.login-modal-overlay.entered {
-  opacity: 1;
-  visibility: visible;
-}
-
-.login-form-container {
-  transition: all 0.3s ease;
-  transform: scale(0.8);
-}
-
-.login-modal-overlay.entered .login-form-container {
-  transform: scale(1);
-}
-
-/* Button hover effects */
-.login-button:hover:not(:disabled) {
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2)) !important;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.login-button:active:not(:disabled) {
-  transform: translateY(0);
-}
-
-/* Close button hover effect */
-.close-button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: rotate(90deg);
-}
-
-/* Loading state animation */
-.login-button:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-/* Error message styling */
-.error-message {
-  color: #ff6b6b;
-  font-size: 0.875rem;
-  text-align: center;
-  margin-top: 0.75rem;
-  animation: fadeIn 0.3s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  .vibrant-glow {
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.3);
+  }
 }
 
 /* Responsive adjustments */
