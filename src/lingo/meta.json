@@ -1,0 +1,1021 @@
+{
+  "version": 0.1,
+  "files": {
+    "app/layout.tsx": {
+      "scopes": {
+        "5/body/0/argument/1/1-label": {
+          "type": "attribute",
+          "hash": "104a3db3b671c04e167eafbe21e57881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Home"
+        },
+        "5/body/0/argument/1/3-label": {
+          "type": "attribute",
+          "hash": "341ff316a339b106a178f0b8d362951b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Features"
+        },
+        "5/body/0/argument/1/5-label": {
+          "type": "attribute",
+          "hash": "944521eeeed2511833d2299931273c71",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About"
+        },
+        "5/body/0/argument/1/7-label": {
+          "type": "attribute",
+          "hash": "f4f219abeb5a465ecb1c7efaf50246de",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Login"
+        },
+        "7/declaration/body/0/argument/1/0/1/3": {
+          "type": "element",
+          "hash": "cd28b2d425f1dbf6668827d9e5e7f129",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migrator - Transfer Your Music Library"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/1/1": {
+          "type": "element",
+          "hash": "f0705bebd6ac510e8ce7df86a09cb354",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Made with"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/1/5": {
+          "type": "element",
+          "hash": "5d30808a0a9193f01e9072bc012fdc8a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "by developers, for music lovers"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/1": {
+          "type": "element",
+          "hash": "74078e40981f3550219c476c9be7cdee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "© 2025 Spotify Migrator"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/11": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/13": {
+          "type": "element",
+          "hash": "55aab5fd0f31a9cb055a2edeeedfaf63",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Support"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/3": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/5": {
+          "type": "element",
+          "hash": "6007d5d5f6591c027b15bd49ab7a8c47",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Privacy"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/7": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/13/1/1/3/9": {
+          "type": "element",
+          "hash": "c531b88ecfe7dd2337a34f4a9ed18a5f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Terms"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/1/1": {
+          "type": "element",
+          "hash": "f0705bebd6ac510e8ce7df86a09cb354",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Made with"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/1/5": {
+          "type": "element",
+          "hash": "5d30808a0a9193f01e9072bc012fdc8a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "by developers, for music lovers"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/1": {
+          "type": "element",
+          "hash": "74078e40981f3550219c476c9be7cdee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "© 2025 Spotify Migrator"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/11": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/13": {
+          "type": "element",
+          "hash": "55aab5fd0f31a9cb055a2edeeedfaf63",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Support"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/3": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/5": {
+          "type": "element",
+          "hash": "6007d5d5f6591c027b15bd49ab7a8c47",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Privacy"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/7": {
+          "type": "element",
+          "hash": "5f1c90d0fd46023ba1bfaaa2537f59fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "•"
+        },
+        "7/declaration/body/0/argument/1/0/3/9/1/1/3/9": {
+          "type": "element",
+          "hash": "c531b88ecfe7dd2337a34f4a9ed18a5f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Terms"
+        },
+        "7/declaration/body/0/argument/1/1/1-content": {
+          "type": "attribute",
+          "hash": "d94b318cb327f61f1aea44a6cb1fdcad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "width=device-width, initial-scale=1"
+        },
+        "7/declaration/body/0/argument/1/1/5-content": {
+          "type": "attribute",
+          "hash": "95315c3804f20c9883bd1eac5ec03cb1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Seamlessly transfer your Spotify playlists, liked songs, and albums between accounts"
+        }
+      }
+    },
+    "app/loading.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "1/declaration/body/0/argument/1/1/1/1/5": {
+          "type": "element",
+          "hash": "8b8b0be965de362a938f77732c902067",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Please wait while we prepare your experience"
+        }
+      }
+    },
+    "app/migrate/loading.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "1/declaration/body/0/argument/1/1/1/1/5": {
+          "type": "element",
+          "hash": "8b8b0be965de362a938f77732c902067",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Please wait while we prepare your experience"
+        }
+      }
+    },
+    "app/migrate/page.tsx": {
+      "scopes": {
+        "13/body/0/argument": {
+          "type": "element",
+          "hash": "50d58ea726d9e81d1022a9553d350d82",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:LogOut></element:LogOut> Log out of both accounts"
+        },
+        "14/body/0/argument": {
+          "type": "element",
+          "hash": "7f55c7b749c1c87840be784a4d4de6e9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:ExternalLink></element:ExternalLink> Log out of Spotify in browser"
+        },
+        "18/body/18/0/init/body/3/3": {
+          "type": "element",
+          "hash": "78276ed6e70c460a78e7a18cd47704d5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Spotify Migrator"
+        },
+        "18/body/18/0/init/body/3/5": {
+          "type": "element",
+          "hash": "b84b98aa8c77a32aff88625f8384cb8b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Seamlessly transfer your music library between Spotify accounts"
+        },
+        "18/body/18/0/init/body/3/7": {
+          "type": "element",
+          "hash": "b0ca6bf6e967105c2708db7937121bfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connect your source and destination accounts, select what to migrate, and let us handle the rest."
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/1/1": {
+          "type": "element",
+          "hash": "f13586ca898c3297d3e33c4edcf45fe9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select Content to Migrate"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/3/1/1": {
+          "type": "element",
+          "hash": "add444b59532926ea05b19f15cac1a65",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Music></element:Music> Playlists"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/3/1/3/3": {
+          "type": "element",
+          "hash": "ef9e1f8aaf1fbbdf868934209c85aea2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select All"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/3/3/expression/alternate/1/expression/0/body/3/3/1": {
+          "type": "element",
+          "hash": "674faa250ac4446738dc60fb5bc52fc2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/> tracks"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/3/3/expression/consequent": {
+          "type": "element",
+          "hash": "a970e5a34a8f54f3c6886b92aa9546c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No playlists found"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/1/5/1": {
+          "type": "element",
+          "hash": "d9ac5b714fe95ef56d1d6bdd549917b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Liked Songs"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/1/5/3": {
+          "type": "element",
+          "hash": "3863fad185e8aff8888add2b39c2e9a4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{sourceData.likedSongs.length} songs"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/3/5/1": {
+          "type": "element",
+          "hash": "6a10ac24b5cbcde9648c7edccfceff36",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Saved Albums"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/3/5/3": {
+          "type": "element",
+          "hash": "bc44925ff7bb20360668d0f153b28599",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{sourceData.albums.length} albums"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/5/5/1": {
+          "type": "element",
+          "hash": "090f39f3575b826513d7a06d03a30b40",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Followed Artists"
+        },
+        "18/body/20/argument/1/3/3/11/expression/right/3/9/5/5/3": {
+          "type": "element",
+          "hash": "ee2b0671e00972773210c5be5a9ccb89",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Coming soon"
+        },
+        "18/body/20/argument/1/3/3/15/expression/right/3/1/expression/right/3/expression/right/1": {
+          "type": "element",
+          "hash": "63d7d9d9c57e9a91e06ff010edd9a396",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migrated Playlists:"
+        },
+        "18/body/20/argument/1/3/3/15/expression/right/3/1/expression/right/3/expression/right/3/1/expression/0/body/3/1": {
+          "type": "element",
+          "hash": "674faa250ac4446738dc60fb5bc52fc2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{playlist.trackCount} tracks"
+        },
+        "18/body/20/argument/1/3/3/15/expression/right/3/1/expression/right/3/expression/right/3/1/expression/0/body/3/3": {
+          "type": "element",
+          "hash": "a586dbd98ef3680a3ffc0fe88100e81b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:ExternalLink></element:ExternalLink> View"
+        },
+        "18/body/20/argument/1/3/3/15/expression/right/3/1/expression/right/5/expression/right": {
+          "type": "element",
+          "hash": "3304ff7b49c5fb790a7f7614b02a4a5e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:span>Liked Songs:</element:span> {migrationStatus.likedSongs.count} migrated"
+        },
+        "18/body/20/argument/1/3/3/15/expression/right/3/1/expression/right/7/expression/right": {
+          "type": "element",
+          "hash": "3304ff7b49c5fb790a7f7614b02a4a5e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:span>Albums:</element:span> {migrationStatus.albums.count} migrated"
+        },
+        "18/body/20/argument/1/3/3/3/1/1": {
+          "type": "element",
+          "hash": "ed7c5d67712e0fa1623fd74d1cb0a378",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Account Connection"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/1/1/3": {
+          "type": "element",
+          "hash": "c3bf69a0fb8c32681f09e93c39d0730d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Source Account"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/1/3/expression/alternate-label": {
+          "type": "attribute",
+          "hash": "3c9f44bc0e28a1f3b920979973adcef9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connect Source Account"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/1/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "aa0ceca574641de34c74b9e590664230",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connected"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/3/1/3": {
+          "type": "element",
+          "hash": "f1df5ba30186028bd6b7fd8562c9552b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Destination Account"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/3/3/expression/alternate-label": {
+          "type": "attribute",
+          "hash": "30e29cbd85623563463adcdd7b7aa930",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connect Destination Account"
+        },
+        "18/body/20/argument/1/3/3/3/3/1/3/3/expression/consequent/3": {
+          "type": "element",
+          "hash": "aa0ceca574641de34c74b9e590664230",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connected"
+        },
+        "18/body/20/argument/1/3/3/7/expression/right/3": {
+          "type": "element",
+          "hash": "d54da6821fbb8c7cfa123fe4fdcf5a61",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Same Account Detected"
+        },
+        "18/body/20/argument/1/3/3/7/expression/right/5": {
+          "type": "element",
+          "hash": "df45ecd886b22c68685c131fc6f55554",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "You're connected to the same Spotify account for both source and destination. Please log out of Spotify in your browser and connect a different account for the destination."
+        },
+        "18/body/20/argument/1/3/7/11/1/1": {
+          "type": "element",
+          "hash": "05ad3632d1998d8cd45888ac9a770cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migration Tips"
+        },
+        "18/body/20/argument/1/3/7/11/3/1/3": {
+          "type": "element",
+          "hash": "b7486fe4bb7018b275767d93d66aef3a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Private playlists will be created as private in your destination account"
+        },
+        "18/body/20/argument/1/3/7/11/3/3/3": {
+          "type": "element",
+          "hash": "2c6771d6e170c2c89a5b5aae8ae5e8c2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Liked songs will be added to your destination account's liked songs"
+        },
+        "18/body/20/argument/1/3/7/11/3/5/3": {
+          "type": "element",
+          "hash": "55f325b98da390e6026cb052ab71b9a4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migration preserves playlist order and track positions"
+        },
+        "18/body/20/argument/1/3/7/11/3/7/3": {
+          "type": "element",
+          "hash": "c094b3fc84fa861c90a5f2681749ba5c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Large libraries may take several minutes to migrate"
+        },
+        "18/body/20/argument/1/3/7/3/1": {
+          "type": "element",
+          "hash": "4fb8b75e707d674524906fb7f22907d1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your Music Library"
+        },
+        "18/body/20/argument/1/3/7/3/3/1-title": {
+          "type": "attribute",
+          "hash": "21a8d7c1a473899cd266f4e0c87f0bb8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Playlists"
+        },
+        "18/body/20/argument/1/3/7/3/3/3-title": {
+          "type": "attribute",
+          "hash": "d9ac5b714fe95ef56d1d6bdd549917b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Liked Songs"
+        },
+        "18/body/20/argument/1/3/7/3/3/5-title": {
+          "type": "attribute",
+          "hash": "6a10ac24b5cbcde9648c7edccfceff36",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Saved Albums"
+        },
+        "18/body/20/argument/1/3/7/7/expression/right/1/1/1/expression/alternate": {
+          "type": "element",
+          "hash": "6ed82b3da8559adfe2ecb97985f4fed1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Music></element:Music> Start Migration"
+        },
+        "18/body/20/argument/1/3/7/7/expression/right/1/1/1/expression/consequent": {
+          "type": "element",
+          "hash": "9f5cc1947d7fe0d5d60b1db941974fda",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Spinner></element:Spinner> Migrating..."
+        },
+        "18/body/20/argument/1/3/7/7/expression/right/1/3/expression/right": {
+          "type": "element",
+          "hash": "9e46ac328bbb25e23394843074e1c6ff",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/> item(s) selected"
+        },
+        "19/body/0/argument/1/3": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "19/body/0/argument/1/5": {
+          "type": "element",
+          "hash": "90fecc24ef9d42e718e3d9ec3949cc37",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Please wait"
+        }
+      }
+    },
+    "app/page.tsx": {
+      "scopes": {
+        "2/declaration/body/1/body/0/argument/1/5/1/5": {
+          "type": "element",
+          "hash": "ee0df90da235ae7167f4f9b1ac6b2fc7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Now supporting all Spotify features"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/11/1/1": {
+          "type": "element",
+          "hash": "fd5d6d297bb9ac7d72d563fc39fc4be2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Start Migration<element:svg><element:path></element:path></element:svg>"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/1/1": {
+          "type": "element",
+          "hash": "6f003883aeec8ac02f9a42f834130f5a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "100%"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/1/3": {
+          "type": "element",
+          "hash": "81e2f16a68f3ad8a9d52c1c449dc6794",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Success Rate"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/3/1": {
+          "type": "element",
+          "hash": "a9925b61869c040c10c6a61adeb5ab4c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2K"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/3/3": {
+          "type": "element",
+          "hash": "12695fc72b76683ffcf17541fbff8688",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Songs Migrated"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/5/1": {
+          "type": "element",
+          "hash": "1ece64eb125a035164192e2eaf714ca0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "1"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/15/5/3": {
+          "type": "element",
+          "hash": "bf5bf7aebfdc8f2b9f925a445dde234c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Happy Users"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/3": {
+          "type": "element",
+          "hash": "1f67b31afdf2287c60c16c9a134fc316",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migrator<element:br></element:br><element:span></element:span>"
+        },
+        "2/declaration/body/1/body/0/argument/1/5/5": {
+          "type": "element",
+          "hash": "b6f9c7d0f7796567f52da4167325ae1a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Seamlessly transfer your entire music library between Spotify accounts.<element:span>Playlists, liked songs, albums</element:span> - everything moves with you."
+        },
+        "2/declaration/body/1/body/0/argument/1/5/7": {
+          "type": "element",
+          "hash": "08ffe508f742f88fc124312b061ba129",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "And the best part? It's completely free and open-source."
+        },
+        "2/declaration/body/1/body/0/argument/1/5/9": {
+          "type": "element",
+          "hash": "7ef519f9d529fdadc6a43cfe3d87d1db",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Additionally, you have an AI that analyses your genres and suggests new music according to that!! Ain't that cool ?"
+        },
+        "2/declaration/body/3/body/6/argument/1/1": {
+          "type": "element",
+          "hash": "6ad11f7fb51f461132aa7d579c852e31",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "×"
+        },
+        "2/declaration/body/3/body/6/argument/1/3/3": {
+          "type": "element",
+          "hash": "3d7c5b589fe3e18a1d2d7e83de7a9cf1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome Back"
+        },
+        "2/declaration/body/3/body/6/argument/1/3/5": {
+          "type": "element",
+          "hash": "774c919c1e3bbdf90d063d727fb157ef",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sign in to your account"
+        },
+        "2/declaration/body/3/body/6/argument/1/5/1/1": {
+          "type": "element",
+          "hash": "0ee22bbbe989a0c61a18023407d12dc2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Email Address"
+        },
+        "2/declaration/body/3/body/6/argument/1/5/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "39931962707c99b99a5a073ab579396b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Enter your email"
+        },
+        "2/declaration/body/3/body/6/argument/1/5/3/1": {
+          "type": "element",
+          "hash": "223a61cf906ab9c40d22612c588dff48",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Password"
+        },
+        "2/declaration/body/3/body/6/argument/1/5/3/3-placeholder": {
+          "type": "attribute",
+          "hash": "ea4fdd034522dead21bae0c0abb52eae",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Enter your password"
+        },
+        "2/declaration/body/3/body/6/argument/1/5/5/1/expression/consequent": {
+          "type": "element",
+          "hash": "b661df0713f480351ba319bc0e55630d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:div></element:div> Signing in..."
+        },
+        "2/declaration/body/3/body/6/argument/1/7/1": {
+          "type": "element",
+          "hash": "c34efd81bd54c24756159dd4be05fbc0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Forgot your password?"
+        },
+        "2/declaration/body/6/argument/5/1/1": {
+          "type": "element",
+          "hash": "68c3d5b987031901a883a3d0f603199b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Everything You Need"
+        },
+        "2/declaration/body/6/argument/5/1/3": {
+          "type": "element",
+          "hash": "ac9ee8104837723d3e2285780c27bca1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Powerful features designed to make your music migration seamless and secure"
+        },
+        "2/declaration/body/6/argument/5/3/1-description": {
+          "type": "attribute",
+          "hash": "e76a9fdc95ceefb38e38e53b3340555f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Transfer all your carefully curated playlists with their exact order and metadata preserved."
+        },
+        "2/declaration/body/6/argument/5/3/1-title": {
+          "type": "attribute",
+          "hash": "3ce351525ac6d21eda6db29bb5181ea0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Migrate Playlists"
+        },
+        "2/declaration/body/6/argument/5/3/11-description": {
+          "type": "attribute",
+          "hash": "6474a11a5bf543594bdeb1ff5cc78d52",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Advanced matching algorithms ensure every song, playlist, and album transfers correctly."
+        },
+        "2/declaration/body/6/argument/5/3/11-title": {
+          "type": "attribute",
+          "hash": "41f526aeda2c816c66e87a404a99f971",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "100% Accurate"
+        },
+        "2/declaration/body/6/argument/5/3/3-description": {
+          "type": "attribute",
+          "hash": "2fe10d0ea5beb21200a8c740141a0e9d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Move your entire liked songs collection without losing any of your favorite tracks."
+        },
+        "2/declaration/body/6/argument/5/3/3-title": {
+          "type": "attribute",
+          "hash": "d9ac5b714fe95ef56d1d6bdd549917b0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Liked Songs"
+        },
+        "2/declaration/body/6/argument/5/3/5-description": {
+          "type": "attribute",
+          "hash": "33389cbcdbb7a86a0ef136c391150cd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Keep your saved albums collection intact when switching between accounts."
+        },
+        "2/declaration/body/6/argument/5/3/5-title": {
+          "type": "attribute",
+          "hash": "6a10ac24b5cbcde9648c7edccfceff36",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Saved Albums"
+        },
+        "2/declaration/body/6/argument/5/3/7-description": {
+          "type": "attribute",
+          "hash": "2253c35009b59763b146cc0d0af2718e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "OAuth2 authentication ensures your data stays safe. We never store your credentials."
+        },
+        "2/declaration/body/6/argument/5/3/7-title": {
+          "type": "attribute",
+          "hash": "41153668e05fbe40e5c8b79511b57eb5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Secure & Private"
+        },
+        "2/declaration/body/6/argument/5/3/9-description": {
+          "type": "attribute",
+          "hash": "e38624e98b0579ee143d1b666b40bb27",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Optimized migration process transfers thousands of songs in minutes, not hours."
+        },
+        "2/declaration/body/6/argument/5/3/9-title": {
+          "type": "attribute",
+          "hash": "52954c277c6a846bfb1f48ef558a27f4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Lightning Fast"
+        },
+        "2/declaration/body/6/argument/9/1/1": {
+          "type": "element",
+          "hash": "de489cfbefd5cf0c241953ca9daa875e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "How It Works"
+        },
+        "2/declaration/body/6/argument/9/1/3": {
+          "type": "element",
+          "hash": "f729adfa072c35d46ab4e49c0b0f6d0a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Simple 3-step process to migrate your entire music library"
+        },
+        "2/declaration/body/6/argument/9/3/1/1": {
+          "type": "element",
+          "hash": "cbc75be59348215d0a0d3f4dc01854f2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "1"
+        },
+        "2/declaration/body/6/argument/9/3/1/3": {
+          "type": "element",
+          "hash": "e0814d30a17336499ccf03587c180343",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "🔗"
+        },
+        "2/declaration/body/6/argument/9/3/1/5": {
+          "type": "element",
+          "hash": "3284519615b26bd7a9fa17f8cf8c3400",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Connect Accounts"
+        },
+        "2/declaration/body/6/argument/9/3/1/7": {
+          "type": "element",
+          "hash": "8088dd409c0d33ddc242a14a59a6f420",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Securely connect both your source and destination Spotify accounts"
+        },
+        "2/declaration/body/6/argument/9/3/3/1": {
+          "type": "element",
+          "hash": "cd803565c478dd4ec8fd8b37507aa0e5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "2"
+        },
+        "2/declaration/body/6/argument/9/3/3/3": {
+          "type": "element",
+          "hash": "7e1a65420026732abea31a1764fc9df9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "✅"
+        },
+        "2/declaration/body/6/argument/9/3/3/5": {
+          "type": "element",
+          "hash": "dd93a8b15adc64194159535182f25792",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select Content"
+        },
+        "2/declaration/body/6/argument/9/3/3/7": {
+          "type": "element",
+          "hash": "8420d267c14ea866d1599901f3d33051",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Choose which playlists, liked songs, and albums you want to migrate"
+        },
+        "2/declaration/body/6/argument/9/3/5/1": {
+          "type": "element",
+          "hash": "6078bfcd8480fd2bdc3f1cc9b4507751",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "3"
+        },
+        "2/declaration/body/6/argument/9/3/5/3": {
+          "type": "element",
+          "hash": "b328c432cee108a87a92f05258b6a651",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "🚀"
+        },
+        "2/declaration/body/6/argument/9/3/5/5": {
+          "type": "element",
+          "hash": "869f1ae6085554602004c29f16e6cd1f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Start Migration"
+        },
+        "2/declaration/body/6/argument/9/3/5/7": {
+          "type": "element",
+          "hash": "f7b536bc68bf5794eab330d3afbed4d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sit back and watch as your music library transfers automatically"
+        }
+      }
+    },
+    "components/ui/spinner.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "5692a41691e0266283f605385d18720c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading your music library..."
+        },
+        "1/declaration/body/0/argument/1/1/1/1/5": {
+          "type": "element",
+          "hash": "e7ffe33527842fc22dc875dc5aff0198",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This may take a moment"
+        }
+      }
+    }
+  }
+}

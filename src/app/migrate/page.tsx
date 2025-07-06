@@ -9,16 +9,16 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Music, Heart, Album, Users, CheckCircle, XCircle, Clock, ExternalLink, RefreshCw, LogOut } from 'lucide-react';
 import { SignInButton } from '@/components/AccountSelector';
-import { Spinner } from '@/components/ui/spinner';
+import Spinner from '@/components/ui/spinner';
 import { toast } from 'sonner';
 import axios from 'axios';
 
 function LogoutButton() {
   return (
     <Button
-      variant="destructive"
+      variant="default"
       size="sm"
-      className="mb-4 w-full group hover:scale-105 transition-transform"
+      className="align-items-center mb-4 w-full group hover:scale-105 transition-transform"
       onClick={async () => {
         try {
           await axios.post('/api/token/logout');
@@ -28,7 +28,7 @@ function LogoutButton() {
         }
       }}
     >
-      <LogOut className="w-4 h-4 mr-2" />
+      <LogOut className="w-2 h-2 mr-2" />
       Log out of both accounts
     </Button>
   );
@@ -166,16 +166,16 @@ function MigratePageContent() {
   async function handleStartMigration() {
     setMigrating(true);
     setMigrationStatus(null);
-    toast.loading('Migration started...');
+    const toastId = toast.loading('Migration started...');
     try {
       const res = await axios.post('/api/migrate/start', {
         selected,
       });
       setMigrationStatus(res.data);
-      toast.success('Migration completed!');
+      toast.success('Migration completed!', { id: toastId });
     } catch (e: any) {
       setMigrationStatus({ error: e.response?.data?.error || e.message || 'Migration failed.' });
-      toast.error('Migration failed.');
+      toast.error('Migration failed.', { id: toastId });
     } finally {
       setMigrating(false);
     }
@@ -210,9 +210,9 @@ function MigratePageContent() {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen gradient-bg">
         <div className="glass-card p-6 flex flex-col items-center justify-center shadow-2xl max-w-sm">
+          {/* <Spinner className="mb-4" size="lg" /> */}
           <Spinner className="mb-4" size="lg" />
-          <h2 className="text-xl font-bold text-gradient mb-2">Loading your music library...</h2>
-          <p className="text-white/60 text-sm text-center">This may take a moment</p>
+          
         </div>
       </div>
     );
@@ -526,9 +526,9 @@ function MigratePageContent() {
         </div>
       </div>
       {/* Footer */}
-      <footer className="w-full mt-8 py-4 text-center text-xs text-white/60 glass-card">
+      {/* <footer className="w-full mt-8 py-4 text-center text-xs text-white/60 glass-card">
         <span>Made with <span className="text-gradient font-bold">♥</span> by you &middot; 2025</span>
-      </footer>
+      </footer> */}
     </div>
   );
 }

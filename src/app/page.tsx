@@ -1,7 +1,8 @@
 'use client';
+import { resolve } from 'path';
 import React, { useState } from 'react';
 
-export default function Home() {
+export default async function Home() {
   const [showLogin, setShowLogin] = useState(false);
 
   function Hero() {
@@ -14,13 +15,14 @@ export default function Home() {
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 glass-card px-4 py-2 rounded-full mb-6">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-xs font-medium text-white/80">Now supporting all Spotify features</span>
+              {/* <div className="heart"></div> */}
+               <span className="text-xs font-medium text-white/80">Now supporting all Spotify features</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-black text-gradient mb-6 leading-tight">
-              Spotify
+              Migrator
               <br />
-              <span className="text-gradient-secondary">Migrator</span>
+              <span className="text-gradient-secondary"></span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -28,7 +30,12 @@ export default function Home() {
               <span className="text-gradient-secondary font-semibold"> Playlists, liked songs, albums</span> - 
               everything moves with you.
             </p>
-            
+            <p className="text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed">
+            And the best part? It's completely free and open-source. </p>
+            <p className="text-lg md:text-xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed">Additionally, you have an AI that analyses 
+            your genres and suggests new music according to that!!
+             Ain't that cool ? 
+             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a 
                 href="/migrate" 
@@ -42,7 +49,7 @@ export default function Home() {
                 </span>
               </a>
               
-              <button
+              {/* <button
                 onClick={() => setShowLogin(!showLogin)}
                 className="btn-secondary text-base px-6 py-3 rounded-2xl font-semibold group"
               >
@@ -52,7 +59,7 @@ export default function Home() {
                   </svg>
                   Demo Login
                 </span>
-              </button>
+              </button> */}
             </div>
             
             {/* Stats */}
@@ -62,11 +69,11 @@ export default function Home() {
                 <div className="text-white/70 text-sm">Success Rate</div>
               </div>
               <div className="glass-card p-4 text-center">
-                <div className="text-2xl font-bold text-gradient mb-1">10K+</div>
+                <div className="text-2xl font-bold text-gradient mb-1">2K</div>
                 <div className="text-white/70 text-sm">Songs Migrated</div>
               </div>
               <div className="glass-card p-4 text-center">
-                <div className="text-2xl font-bold text-gradient mb-1">500+</div>
+                <div className="text-2xl font-bold text-gradient mb-1">1</div>
                 <div className="text-white/70 text-sm">Happy Users</div>
               </div>
             </div>
@@ -76,7 +83,7 @@ export default function Home() {
     );
   }
 
-  function FeatureCard({ icon, title, description, delay = 0 }: { 
+  function FeatureCard({ icon, title, description, delay = 1 }: { 
     icon: string; 
     title: string; 
     description: string; 
@@ -84,7 +91,7 @@ export default function Home() {
   }) {
     return (
       <div 
-        className="glass-card p-6 text-center group hover:scale-105 transition-all duration-500"
+        className="display-flex glass-card p-6 text-center group hover:scale-105 transition-all duration-500"
         style={{ animationDelay: `${delay}ms` }}
       >
         <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -215,8 +222,12 @@ export default function Home() {
         </div>
       </div>
     );
-  }
-
+  };
+              await new Promise( (resolve) => {
+                    setTimeout ( () =>{
+                       resolve("delay");
+                  },4000);
+                });
   return (
     <>
       <Hero />
@@ -284,7 +295,7 @@ export default function Home() {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="glass-card p-6 text-center relative">
+          <div className="glass-card p-6 text-center flex relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
               1
             </div>
